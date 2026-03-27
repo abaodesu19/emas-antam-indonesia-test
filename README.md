@@ -1,5 +1,9 @@
 <p align="center"><a href="https://emasantam.id" target="_blank"><img src="https://emasantam.id/wp-content/uploads/2021/09/Logo-EAI-Baru-Warna.svg" width="400" alt="Emas Antam Indonesia"></a></p>
 
+## LINK DEMO
+
+- Akses: `https://emasantam.id/eai-test` untuk demo aplikasi.
+
 ## Setup Project
 
 - Salin environment:
