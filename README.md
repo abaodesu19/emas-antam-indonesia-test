@@ -2,7 +2,7 @@
 
 ## LINK DEMO
 
-- Akses: `https://emasantam.id/eai-test` untuk demo aplikasi.
+- Akses: [https://eai-test.laravel.cloud](https://eai-test.laravel.cloud) untuk demo aplikasi.
 
 ## Setup Project
 
