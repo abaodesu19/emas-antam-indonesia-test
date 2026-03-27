@@ -65,7 +65,7 @@ class OrderController extends Controller
 
     public function penjualanTop3()
     {
-        $data = SummaryTop3Produk::orderByDesc('total_terjual')
+        $data = SummaryTop3Produk::orderByDesc('total_terjual')->with('product')
                 ->limit(3)
                 ->get();
         return response()->json(['message' => 'Total Penjualan Top-3 Produk', 'data' => $data]);

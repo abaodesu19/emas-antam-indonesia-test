@@ -1,3 +1,9 @@
 <?php
-use Livewire\Volt\Volt;
-Volt::route('/cart', 'shopping-cart');
+
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', function () {
+    return redirect('/product');
+});
+
+Route::livewire('/product', 'pages::product.list');
